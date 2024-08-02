@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+""" 3. Basic annotations - to string
+"""
 
 
 def to_str(n: float) -> str:
-    '''Converts a floting type number in to a string.
-    '''
+    """ Returns string representation of float number
+    """
     return str(n)
