@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""task 10
+"""
 
 from typing import Sequence, Any, Union
 
