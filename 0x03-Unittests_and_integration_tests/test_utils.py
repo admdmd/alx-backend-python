@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Unittest module """
+""" the unittest module """
 
 from unittest import TestCase, mock
 from unittest.mock import patch, Mock
@@ -9,7 +9,7 @@ from utils import access_nested_map, get_json, memoize
 
 
 class TestAccessNestedMap(TestCase):
-    """ Class for testing Nested Map function """
+    """ Class for testing the nested map functions """
     # order of args: map, path, expected_output
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
